@@ -1,0 +1,111 @@
+List of Spacecrafts
+SN	Name	        Launch Date	Launch Vehicle	Orbit Type	Application	Remarks
+109	GSAT-30	        Jan 17, 2020	Ariane-5 VA-251	GSO	Communication	
+108	RISAT-2BR1     Dec 11, 2019	PSLV-C48/RISAT-2BR1	LEO	Disaster Management System, Earth Observation	
+107	Cartosat-3	        Nov 27, 2019	PSLV-C47 / Cartosat-3 Mission	SSPO	Earth Observation	
+106	Chandrayaan   Jul 22, 2019	GSLV-Mk III - M1 / Chandrayaan-2 Mission	Lunar	Planetary Observation	
+105	RISAT-2B	       May 22, 2019	PSLV-C46 Mission	LEO	Disaster Management System, Earth Observation	
+104	EMISAT	       Apr 01, 2019	PSLV-C45/EMISAT MISSION	SSPO		
+103	GSAT-31	       Feb 06, 2019	Ariane-5 VA-247	GTO	Communication	
+102	Microsat-R      Jan 24, 2019	PSLV-C44	SSPO		
+101	GSAT-7A	       Dec 19, 2018	GSLV-F11 / GSAT-7A Mission		Communication	
+100	GSAT-11 Mission	Dec 05, 2018	Ariane-5 VA-246	GTO	Communication	
+99	HysIS	Nov 29, 2018	PSLV-C43 / HysIS Mission	SSPO	Earth Observation	
+98	GSAT-29	Nov 14, 2018	GSLV Mk III-D2 / GSAT-29 Mission	GTO	Communication	
+97	IRNSS-1I	Apr 12, 2018	PSLV-C41/IRNSS-1I	GSO	Navigation	
+96	GSAT-6A	Mar 29, 2018	GSLV-F08/GSAT-6A Mission	GSO	Communication	
+95	Cartosat-2 Series Satellite	Jan 12, 2018	PSLV-C40/Cartosat-2 Series Satellite Mission	SSPO	Earth Observation	
+94	INS-1C	Jan 12, 2018	PSLV-C40/Cartosat-2 Series Satellite Mission	SSPO	Experimental	
+93	Microsat	Jan 12, 2018	PSLV-C40/Cartosat-2 Series Satellite Mission	SSPO	Experimental	
+92	IRNSS-1H	Aug 31, 2017	PSLV-C39/IRNSS-1H Mission		Navigation	Launch Unsuccessful
+91	GSAT-17	Jun 29, 2017	Ariane-5 VA-238	GTO	Communication	
+90	Cartosat-2 Series Satellite	Jun 23, 2017	PSLV-C38 / Cartosat-2 Series Satellite	SSPO	Earth Observation	
+89	GSAT-19	Jun 05, 2017	GSLV Mk III-D1/GSAT-19 Mission	GSO	Communication	
+88	GSAT-9	May 05, 2017	GSLV-F09 / GSAT-9	GSO	Communication	
+87	INS-1A	Feb 15, 2017	PSLV-C37 / Cartosat -2 Series Satellite	SSPO	Experimental	
+86	INS-1B	Feb 15, 2017	PSLV-C37 / Cartosat -2 Series Satellite	SSPO	Experimental	
+85	Cartosat -2 Series Satellite	Feb 15, 2017	PSLV-C37 / Cartosat -2 Series Satellite	SSPO	Earth Observation	
+84	RESOURCESAT-2A	Dec 07, 2016	PSLV-C36 / RESOURCESAT-2A	SSPO	Earth Observation	
+83	GSAT-18	Oct 06, 2016	Ariane-5 VA-231	GSO	Communication	
+82	SCATSAT-1	Sep 26, 2016	PSLV-C35 / SCATSAT-1	SSPO	Climate & Environment	
+81	INSAT-3DR	Sep 08, 2016	GSLV-F05 / INSAT-3DR	GSO	Climate & Environment, Disaster Management System	
+80	CARTOSAT-2 Series Satellite	Jun 22, 2016	PSLV-C34 / CARTOSAT-2 Series Satellite	SSPO	Earth Observation	
+79	IRNSS-1G	Apr 28, 2016	PSLV-C33/IRNSS-1G	GEO	Navigation	
+78	IRNSS-1F	Mar 10, 2016	PSLV-C32/IRNSS-1F	GEO	Navigation	
+77	IRNSS-1E	Jan 20, 2016	PSLV-C31/IRNSS-1E	GSO	Navigation	
+76	GSAT-15	Nov 11, 2015	Ariane-5 VA-227	GEO	Communication, Navigation	
+75	Astrosat	Sep 28, 2015	PSLV-C30/AstroSat MISSION		Space Science	
+74	GSAT-6	Aug 27, 2015	GSLV-D6	GTO	Communication	
+73	IRNSS-1D	Mar 28, 2015	PSLV-C27/IRNSS-1D	GSO	Navigation	
+72	Crew module Atmospheric Re-entry Experiment (CARE)	Dec 18, 2014	LVM-3/CARE Mission		Experimental	
+71	GSAT-16	Dec 07, 2014	Ariane-5 VA-221	GSO	Communication	
+70	IRNSS-1C	Oct 16, 2014	PSLV-C26/IRNSS-1C	GEO	Navigation	
+69	IRNSS-1B	Apr 04, 2014	PSLV-C24/IRNSS-1B	GSO	Navigation	
+68	GSAT-14	Jan 05, 2014	GSLV-D5/GSAT-14	GSO	Communication	
+67	Mars Orbiter Mission Spacecraft	Nov 05, 2013	PSLV-C25	Martian	Planetary Observation	
+66	GSAT-7	Aug 30, 2013	Ariane-5 VA-215	GSO	Communication	
+65	INSAT-3D	Jul 26, 2013	Ariane-5 VA-214	GSO	Climate & Environment, Disaster Management System	
+64	IRNSS-1A	Jul 01, 2013	PSLV-C22/IRNSS-1A	GSO	Navigation	
+63	SARAL	Feb 25, 2013	PSLV-C20/SARAL	SSPO	Climate & Environment, Earth Observation	
+62	GSAT-10	Sep 29, 2012	Ariane-5 VA-209	GEO	Communication, Navigation	
+61	RISAT-1	Apr 26, 2012	PSLV-C19/RISAT-1	SSPO	Earth Observation	
+60	Megha-Tropiques	Oct 12, 2011	PSLV-C18/Megha-Tropiques	SSPO	Climate & Environment, Earth Observation	
+59	GSAT-12	Jul 15, 2011	PSLV-C17/GSAT-12	GSO	Communication	
+58	GSAT-8	May 21, 2011	Ariane-5 VA-202	GEO	Communication, Navigation	
+57	RESOURCESAT-2	Apr 20, 2011	PSLV-C16/RESOURCESAT-2	SSPO	Earth Observation	
+56	YOUTHSAT	Apr 20, 2011	PSLV-C16/RESOURCESAT-2	SSPO	Student Satellite	
+55	GSAT-5P	Dec 25, 2010	GSLV-F06 / GSAT-5P	GSO	Communication	Launch Unsuccessful
+54	CARTOSAT-2B	Jul 12, 2010	PSLV-C15/CARTOSAT-2B	SSPO	Earth Observation	
+53	GSAT-4	Apr 15, 2010	GSLV-D3 / GSAT-4	GSO	Communication	Launch Unsuccessful
+52	Oceansat-2	Sep 23, 2009	PSLV-C14 / OCEANSAT-2	SSPO	Climate & Environment, Earth Observation	
+51	RISAT-2	Apr 20, 2009	PSLV-C12 / RISAT-2	SSPO	Earth Observation	
+50	Chandrayaan-1	Oct 22, 2008	PSLV-C11	Lunar	Planetary Observation	
+49	CARTOSAT – 2A	Apr 28, 2008	PSLV-C9 / CARTOSAT – 2A	SSPO	Earth Observation	
+48	IMS-1	Apr 28, 2008	PSLV-C9 / CARTOSAT – 2A	SSPO	Earth Observation	
+47	INSAT-4CR	Sep 02, 2007	GSLV-F04 / INSAT-4CR	GSO	Communication	
+46	INSAT-4B	Mar 12, 2007	Ariane5	GSO	Communication	
+45	SRE-1	Jan 10, 2007	PSLV-C7 / CARTOSAT-2 / SRE-1	SSPO	Experimental	
+44	CARTOSAT-2	Jan 10, 2007	PSLV-C7 / CARTOSAT-2 / SRE-1	SSPO	Earth Observation	
+43	INSAT-4C	Jul 10, 2006	GSLV-F02 / INSAT-4C	GSO	Communication	Launch Unsuccessful
+42	INSAT-4A	Dec 22, 2005	Ariane5-V169	GSO	Communication	
+41	CARTOSAT-1	May 05, 2005	PSLV-C6/CARTOSAT-1/HAMSAT	SSPO	Earth Observation	
+40	HAMSAT	May 05, 2005	PSLV-C6/CARTOSAT-1/HAMSAT	SSPO	Communication	
+39	EDUSAT	Sep 20, 2004	GSLV-F01 / EDUSAT(GSAT-3)	GSO	Communication	
+38	IRS-P6 / RESOURCESAT-1	Oct 17, 2003	PSLV-C5 /RESOURCESAT-1	SSPO	Earth Observation	
+37	INSAT-3E	Sep 28, 2003	Ariane5-V162	GSO	Communication	
+36	GSAT-2	May 08, 2003	GSLV-D2 / GSAT-2	GSO	Communication	
+35	INSAT-3A	Apr 10, 2003	Ariane5-V160	GSO	Climate & Environment, Communication	
+34	KALPANA-1	Sep 12, 2002	PSLV-C4 /KALPANA-1	GSO	Climate & Environment, Communication	
+33	INSAT-3C	Jan 24, 2002	Ariane5-V147	GSO	Climate & Environment, Communication	
+32	The Technology Experiment Satellite (TES)	Oct 22, 2001	PSLV-C3 / TES	SSPO	Earth Observation	
+31	GSAT-1	Apr 18, 2001	GSLV-D1 / GSAT-1	GSO	Communication	
+30	INSAT-3B	Mar 22, 2000	Ariane-5G	GSO	Communication	
+29	Oceansat(IRS-P4)	May 26, 1999	PSLV-C2/IRS-P4	SSPO	Earth Observation	
+28	INSAT-2E	Apr 03, 1999	Ariane-42P H10-3	GSO	Communication	
+27	IRS-1D	Sep 29, 1997	PSLV-C1 / IRS-1D	SSPO	Earth Observation	
+26	INSAT-2D	Jun 04, 1997	Ariane-44L H10-3	GSO	Communication	Failed in Orbit
+25	IRS-P3	Mar 21, 1996	PSLV-D3 / IRS-P3	SSPO	Earth Observation	
+24	IRS-1C	Dec 28, 1995	Molniya	SSPO	Earth Observation	
+23	INSAT-2C	Dec 07, 1995	Ariane-44L H10-3	GSO	Communication	
+22	IRS-P2	Oct 15, 1994	PSLV-D2	SSPO	Earth Observation	
+21	SROSS-C2	May 04, 1994	ASLV-D4		Experimental	
+20	IRS-1E	Sep 20, 1993	PSLV-D1	LEO	Earth Observation	Launch Unsuccessful
+19	INSAT-2B	Jul 23, 1993	Ariane-44L H10+	GSO	Communication	
+18	INSAT-2A	Jul 10, 1992	Ariane-44L H10	GSO	Communication	
+17	SROSS-C	May 20, 1992	ASLV-D3		Experimental	
+16	IRS-1B	Aug 29, 1991	Vostok	SSPO	Earth Observation	
+15	INSAT-1D	Jun 12, 1990	Delta 4925	GSO	Communication	
+14	INSAT-1C	Jul 22, 1988	Ariane-3	GSO	Communication	Partial Failure in Orbit
+13	SROSS-2	Jul 13, 1988	ASLV-D2		Earth Observation, Experimental	Launch Unsuccessful
+12	IRS-1A	Mar 17, 1988	Vostok	SSPO	Earth Observation	
+11	SROSS-1	Mar 24, 1987	ASLV-D1		Experimental	Launch Unsuccessful
+10	INSAT-1B	Aug 30, 1983	Shuttle [PAM-D]	GSO	Communication	
+9	Rohini Satellite RS-D2	Apr 17, 1983	SLV-3	LEO	Earth Observation	
+8	INSAT-1A	Apr 10, 1982	Delta	GSO	Communication	Failed in Orbit
+7	Bhaskara-II	Nov 20, 1981	C-1 Intercosmos	LEO	Earth Observation, Experimental	
+6	APPLE	Jun 19, 1981	Ariane -1(V-3)	GSO	Communication, Experimental	
+5	Rohini Satellite RS-D1	May 31, 1981	SLV-3D1	LEO	Earth Observation	
+4	Rohini Satellite RS-1	Jul 18, 1980	SLV-3E2			
+3	Rohini Technology Payload (RTP)	Aug 10, 1979	SLV-3E1			Launch Unsuccessful
+2	Bhaskara-I	Jun 07, 1979	C-1Intercosmos	LEO	Earth Observation, Experimental	
+1	Aryabhata	Apr 19, 1975	C-1 Intercosmos		Experimental	

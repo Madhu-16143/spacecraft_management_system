@@ -1,0 +1,220 @@
+
+SQL> SELECT *FROM LAUNCHINGDETAISLS;
+SELECT *FROM LAUNCHINGDETAISLS
+             *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> CONNECT
+Enter user-name: SYSTEM
+Enter password:
+Connected.
+SQL> SELECT *FROM LAUNCHINGDETAISLS;
+SELECT *FROM LAUNCHINGDETAISLS
+             *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> SELECT *FROM LAUNCHINGDETAILS;
+
+NAME       LAUNCHVEHICLE        MISSIONLIF PLACEOFLAUNCH
+---------- -------------------- ---------- ------------------------------
+APPLE      ariane-1(v-3)        2 years    kourou(csg),french guyana
+BHASKARA-1 C-1INTERCOSMOS       1YEAR      RUSSIA
+ROHINI     SLV3                 17 MONTHS  SRIHARIKOTA(INDIA)
+KALPANA1   PSLVC-4              7YEARS     SRIHARIKOTA(INDIA)
+CHANDRYAN2 GSLV-MK-111          5 YEARS    SRIHARIKOTA
+MANGALYAN  PSLV-C25             5 YEARS    SRIHARIKOTA
+CHANDRYAN1 PSLV-C11             2 YEARS    SRIHARIKOTA
+APOLLO 11  SATURN V             8 DAYS     KENNEDY SC
+SKYLAB     ANTARES              2249 DAYS  KENNEDY SC
+
+9 rows selected.
+
+SQL> SELECT *FROM SPACECRAFT;
+
+NAME       ORBITTYPE            ALTITUDE   DATEOFLAU
+---------- -------------------- ---------- ---------
+APPLE      Geosynchronous       102° East  19-JUN-81
+BHASKARA-1 519 x 541 km         50.6 deg   07-JUN-79
+ROHINI     186 x 418 km         46 deg     31-MAY-81
+KALPANA1   Geostationary        74 deg E   12-SEP-02
+CHANDRYAN2 LUNAR                90DEG POLE 12-SEP-19
+MANGALYAN  MARTIAN              150 DEG    05-NOV-13
+CHANDRYAN1 LUNAR                200 km     22-OCT-08
+APOLLO-11  LUNAR                1.25 deg   16-JUL-69
+SKYLAB     CIRCLEORBIT          50 DEG     14-MAY-73
+
+9 rows selected.
+
+SQL> SELECT *FROM LANDINGDETAILS;
+
+ORBITTYPE            FEATURES             ALTITUDE
+-------------------- -------------------- ----------
+geosynchronous       communication         102° East
+LEO                  EARTH OBSERVATION    50.6DEG
+LEO                  EARTH OBSERVATION    46DEG
+GSO                  CLIMATE ENVIRONMENT  74DEG E
+LUNAR                PLANET OBSERVEATION  90DEG POLE
+MARTIAN              PLANET OBSERVATION   150DEG
+LUNAR                PALNET OBSERVATION   200KM
+LUNAR                PLANET OBSERVATION   1.25DEG
+CIRCLEORBIT          SPACE STATON         50DEG
+
+9 rows selected.
+
+SQL>ALT 0176= DEGREE °
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mysql> select * from launchingdetials1;
++-----------------+----------------+-------------+--------------------+------------------------------------------------------+
+| name            | launchvehicle  | missionlife | placeoflaunch      | image                                                |
++-----------------+----------------+-------------+--------------------+------------------------------------------------------+
+| BHASKARA-1      | C-1INTERCOSMOS | 1 YEAR      | RUSSIA             | C:\Users\thummala madhukar\Downloads\BHASKARA-1.jpg  |
+| ROHINI RS-D1    | SLV-3D1        | 17 MONTHS   | SRIHARIKOTA(INDIA) | C:\Users\thummala madhukar\Downloads\ROHINI.jpg      |
+| APPLE           | ARIANE-1(V-3)  | 2 YEARS     | KOUROU(CSG)        | C:\Users\thummala madhukar\Downloads\APPLE.jpg       |
+| KALPANA1        | PSLV-C4        | 7 YEARS     | SRIHARIKOTA(INDIA) | C:\Users\thummala madhukar\Downloads\KALPANA1.jpg    |
+| CHANDRAYAAN2    | GSLV-MK 111-M1 | 5 YEARS     | SRIHARIKOTA(INDIA) | C:\Users\thummala madhukar\Downloads\CHANDRAYAN2.jpg |
+| MANGALYAAN      | PSLV-C25       | 5 YEARS     | SRIHARIKOTA(INDIA) | C:\Users\thummala madhukar\Downloads\MANGALYAN.jpg   |
+| CHANDRAYAAN1    | PSLV-C11       | 2 YEARS     | SRIHARIKOTA(INDIA) | C:\Users\thummala madhukar\Downloads\CHANDRAYAN1.jpg |
+| APOLLO 11       | SATURN V       | 8 DAYS      | KENNEDY SC         | C:\Users\thummala madhukar\Downloads\APOLLO 11.jpg   |
+| SKYLAB          | ANTARES        | 2249 DAYS   | KENNEDY SC         | C:\Users\thummala madhukar\Downloads\SKYLAB.jpg      |
+| CATROSAT 3      | PSLV C47       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\CATROSAT 3.png                   |
+| CATROSAT 2      | PSLV C7        | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\CATROSAT 2.jpg                   |
+| RISAT-1         | PSLV C19       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\RISAT-1.png                      |
+| RISAT2BR1       | PSLV C48       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\RISAT2BR1.png                    |
+| MEGHA TROPIQUES | PSLV C19       | 3 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\MEGHA TROPIQUES.jpeg             |
+| ASTROSAT        | PSLV C30       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\ASTROSAT.jpg                     |
+| SARAL           | PSLV C20       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\SARAL.jpg                        |
+| RISAT-2         | PSLV C12       | 4 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\RISAT-2.jpeg                     |
+| RESOURCESAT-1   | PSLV C5        | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\RESOURCESAT-1.jpeg               |
+| SCATSAT-1       | PSLV C35       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\SCATSAT-1.jpeg                   |
+| OCEANSAT-2      | PSLV C14       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\OCEANSAT-2.jpeg                  |
+| IRNSS-1E        | PSLV C31       | 12 YEARS    | SRIHARIKOTA(INDIA) | D:\database project\IRNSS-1E.jpeg                    |
+| INSAT-4A        | ARIANE-V 169   | 12 YEARS    | KOUROU             | D:\database project\INSAT-4A.jpeg                    |
+| CATROSAT-2B     | PSLV C15       | 5 YEARS     | SRIHARIKOTA(INDIA) | D:\database project\CATROSAT-2B.jpeg                 |
++-----------------+----------------+-------------+--------------------+------------------------------------------------------+
+23 rows in set (0.00 sec)
+
+mysql> select * from launchingdetails;
++-----------------+----------------+-------------+--------------------+
+| name            | launchvehicle  | missionlife | placeoflaunch      |
++-----------------+----------------+-------------+--------------------+
+| BHASKARA-1      | C-1INTERCOSMOS | 1 YEAR      | RUSSIA             |
+| ROHINI RS-D1    | SLV-3D1        | 17 MONTHS   | SRIHARIKOTA(INDIA) |
+| APPLE           | ARIANE-1(V-3)  | 2 YEARS     | KOUROU(CSG)        |
+| KALPANA1        | PSLV-C4        | 7 YEARS     | SRIHARIKOTA(INDIA) |
+| CHANDRAYAAN2    | GSLV-MK 111-M1 | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| MANGALYAAN      | PSLV-C25       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| CHANDRAYAAN1    | PSLV-C11       | 2 YEARS     | SRIHARIKOTA(INDIA) |
+| APOLLO 11       | SATURN V       | 8 DAYS      | KENNEDY SC         |
+| SKYLAB          | ANTARES        | 2249 DAYS   | KENNEDY SC         |
+| CATROSAT 3      | PSLV C47       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| CATROSAT 2      | PSLV C7        | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| RISAT-1         | PSLV C19       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| RISAT2BR1       | PSLV C48       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| MEGHA TROPIQUES | PSLV C19       | 3 YEARS     | SRIHARIKOTA(INDIA) |
+| ASTROSAT        | PSLV C30       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| SARAL           | PSLV C20       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| RISAT-2         | PSLV C12       | 4 YEARS     | SRIHARIKOTA(INDIA) |
+| RESOURCESAT-1   | PSLV C5        | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| SCATSAT-1       | PSLV C35       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| OCEANSAT-2      | PSLV C14       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| IRNSS-1E        | PSLV C31       | 12 YEARS    | SRIHARIKOTA(INDIA) |
+| INSAT-4A        | ARIANE-V 169   | 12 YEARS    | KOUROU             |
+| CATROSAT-2B     | PSLV C15       | 5 YEARS     | SRIHARIKOTA(INDIA) |
++-----------------+----------------+-------------+--------------------+
+23 rows in set (0.11 sec)
+
+mysql> select * from spacecraft;
++-----------------+---------------+-------------------+--------------+
+| name            | orbittype     | satcatno          | dateoflaunch |
++-----------------+---------------+-------------------+--------------+
+| BHASKARA-1      | LEO           | 11392             | 1979-06-07   |
+| APPLE           | GSO           | 12545             | 1981-06-19   |
+| KALPANA1        | GSO           | 27525             | 2002-09-12   |
+| ROHINI RS-D1    | LEO           | 11899             | 1981-05-31   |
+| CHANDRAYAAN1    | LUNAR         | 33405             | 2008-10-22   |
+| CHANDRAYAAN2    | LUNAR         | 44441             | 2019-07-22   |
+| MANGALYAAN      | MARTIAN       | 39370             | 2013-11-05   |
+| APOLLO 11       | LUNAR         | CSM:4309 LM0:4041 | 1969-07-16   |
+| SKYLAB          | CIRCULARORBIT | 06633             | 1973-05-14   |
+| CATROSAT 3      | SSPO          | 44804             | 2019-11-27   |
+| CATROSAT 2      | SSPO          | 29710             | 2007-01-10   |
+| RISAT-1         | SSPO          | 38248             | 2012-04-26   |
+| RISAT2BR1       | LEO           | 44857             | 2019-12-11   |
+| MEGHA TROPIQUES | SSPO          | 37838             | 2011-10-12   |
+| ASTROSAT        | SSPO          | 40930             | 2015-09-28   |
+| SARAL           | SSPO          | 39086             | 2013-02-25   |
+| RISAT-2         | SSPO          | 34807             | 2009-04-20   |
+| RESOURCESAT-1   | SSPO          | 18960             | 2003-10-17   |
+| SCATSAT-1       | SSPO          | 41790             | 2016-09-26   |
+| OCEANSAT-2      | SSPO          | 35931             | 2009-09-23   |
+| IRNSS-1E        | GSO           | 41241             | 2016-01-20   |
+| INSAT-4A        | GSO           | 28911             | 2005-12-22   |
+| CATROSAT-2B     | SSPO          | 36795             | 2010-07-12   |
++-----------------+---------------+-------------------+--------------+
+23 rows in set (0.10 sec)
+
+mysql> select * from landingdetails;
++---------------+----------------------------+------------------+
+| orbittype     | applications               | satcatno         |
++---------------+----------------------------+------------------+
+| GSO           | COMMUNICATION              | 12545            |
+| LEO           | EARTH OBSERVATION          | 11392            |
+| LEO           | EARTH OBSERVATION          | 11899            |
+| GSO           | CLIMATE ENVIRONMENT        | 27525            |
+| LUNAR         | PLANET OBSERVATION         | 44441            |
+| LUNAR         | PLANET OBSERVATION         | 33405            |
+| LUNAR         | PLANET OBSERVATION         | CSM:4039 LM:4041 |
+| MARTIAN       | PLANET OBSERVATION         | 39370            |
+| CIRCULARORBIT | SPACESTATION               | 06633            |
+| SSPO          | EARTH OBSERVATION          | 44804            |
+| SSPO          | EARTH OBSERVATION          | 29710            |
+| SSPO          | EARTH OBSERVATION          | 38248            |
+| LEO           | DISASTER MANAGEMENT SYSTEM | 44857            |
+| SSPO          | CLIMATE ENVIRONMENT        | 37838            |
+| SSPO          | SPACE SCIENCE              | 40930            |
+| SSPO          | CLIMATE ENVIRONMENT        | 39086            |
+| SSPO          | EARTH OBSERVATION          | 34807            |
+| SSPO          | EARTH OBSERVATION          | 18960            |
+| SSPO          | CLIMATE ENVIRONMENT        | 41790            |
+| SSPO          | CLIMATE ENVIRONMENT        | 35931            |
+| GSO           | NAVIGATION                 | 41241            |
+| GSO           | COMMUNICATION              | 28911            |
+| SSPO          | EARTH OBSERVATION          | 36795            |
++---------------+----------------------------+------------------+
+23 rows in set (0.10 sec)

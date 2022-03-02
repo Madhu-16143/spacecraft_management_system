@@ -1,0 +1,421 @@
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 11
+Server version: 8.0.19 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.21 sec)
+
+mysql> create database login;
+Query OK, 1 row affected (0.17 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| login              |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use login;
+Database changed
+mysql> create table launchingdetails(name varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCHvarchar2(20));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCHva' at line 1
+mysql> create table launchingdetails(name varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCH varchar2(20));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCH v' at line 1
+mysql> create table launchingdetails(name varchar(20),LAUNCHVEHICLE varchar(20),MISSIONLIFE varchar(10),PLACEOFLAUNCH varchar(20));
+Query OK, 0 rows affected (1.35 sec)
+
+mysql> show tables;
++------------------+
+| Tables_in_login  |
++------------------+
+| launchingdetails |
++------------------+
+1 row in set (0.07 sec)
+
+mysql> insert into launchingdetails values("BHASKARA-1","C-1INTERCOSMOS","1 YEAR","RUSSIA");
+Query OK, 1 row affected (0.22 sec)
+
+mysql> select * from launchingdetails;
++------------+----------------+-------------+---------------+
+| name       | LAUNCHVEHICLE  | MISSIONLIFE | PLACEOFLAUNCH |
++------------+----------------+-------------+---------------+
+| BHASKARA-1 | C-1INTERCOSMOS | 1 YEAR      | RUSSIA        |
++------------+----------------+-------------+---------------+
+1 row in set (0.00 sec)
+
+mysql> create table spacecraft(name varchar(20),orbittype varchar(20),altitude varchar(10),dateoflaunch  date));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+mysql> create table spacecraft(name varchar(20),orbittype varchar(20),altitude varchar(10),dateoflaunch  date);
+Query OK, 0 rows affected (1.03 sec)
+
+mysql> show tables;
++------------------+
+| Tables_in_login  |
++------------------+
+| launchingdetails |
+| spacecraft       |
++------------------+
+2 rows in set (0.00 sec)
+
+mysql> insert into spacecraft("BHASKARA-1","GSO","50.6 deg","1979-06-07");
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"BHASKARA-1","GSO","50.6 deg","1979-06-07")' at line 1
+mysql> insert into spacecraft values("BHASKARA-1","GSO","50.6 deg","1979-06-07");
+Query OK, 1 row affected (0.17 sec)
+
+mysql> select * from spacecraft;
++------------+-----------+----------+--------------+
+| name       | orbittype | altitude | dateoflaunch |
++------------+-----------+----------+--------------+
+| BHASKARA-1 | GSO       | 50.6 deg | 1979-06-07   |
++------------+-----------+----------+--------------+
+1 row in set (0.00 sec)
+
+mysql> create table landingdetails(orbittype varchar(20),features varchar(20),altitude varchar(20));
+Query OK, 0 rows affected (0.79 sec)
+
+mysql> insert into landingdetails values("GSO","EARTH OBSERVATION","50.6DEG");
+Query OK, 1 row affected (0.17 sec)
+
+mysql>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    -> | information_schema |
+    -> | login              |
+    -> | mysql              |
+    -> | performance_schema |
+    -> | sys                |
+    -> +--------------------+
+    -> 5 rows in set (0.00 sec)
+    ->
+    -> mysql> use login;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+--------------------+
+| Database           |
++--------------------+
+| informati' at line 1
+mysql> Database changed
+    -> mysql> create table launchingdetails(name varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCHvarchar2(20));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Database changed
+mysql> create table launchingdetails(name varchar2(20),LAUNCHVE' at line 1
+mysql> ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCHva' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ERROR 1064 (42000): You have an error in your SQL syntax' at line 1
+    -> mysql> create table launchingdetails(name varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCH varchar2(20));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'the manual that corresponds to your MySQL server version for the right syntax to' at line 1
+mysql> ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar2(20),LAUNCHVEHICLE varchar2(20),MISSIONLIFE varchar2(10),PLACEOFLAUNCH v' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ERROR 1064 (42000): You have an error in your SQL syntax' at line 1
+    -> mysql> create table launchingdetails(name varchar(20),LAUNCHVEHICLE varchar(20),MISSIONLIFE varchar(10),PLACEOFLAUNCH varchar(20));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'the manual that corresponds to your MySQL server version for the right syntax to' at line 1
+mysql> Query OK, 0 rows affected (1.35 sec)
+    ->
+    -> mysql> show tables;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Query OK, 0 rows affected (1.35 sec)
+
+mysql> show tables' at line 1
+mysql> +------------------+
+    -> | Tables_in_login  |
+    -> +------------------+
+    -> | launchingdetails |
+    -> +------------------+
+    -> 1 row in set (0.07 sec)
+    ->
+    -> mysql> insert into launchingdetails values("BHASKARA-1","C-1INTERCOSMOS","1 YEAR","RUSSIA");
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+------------------+
+| Tables_in_login  |
++------------------+
+| launchingdetail' at line 1
+mysql> Query OK, 1 row affected (0.22 sec)
+    ->
+    -> mysql> select * from launchingdetails;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Query OK, 1 row affected (0.22 sec)
+
+mysql> select * from launchingdetails' at line 1
+mysql> +------------+----------------+-------------+---------------+
+    -> | name       | LAUNCHVEHICLE  | MISSIONLIFE | PLACEOFLAUNCH |
+    -> +------------+----------------+-------------+---------------+
+    -> | BHASKARA-1 | C-1INTERCOSMOS | 1 YEAR      | RUSSIA        |
+    -> +------------+----------------+-------------+---------------+
+    -> 1 row in set (0.00 sec)
+    ->
+    -> mysql> create table spacecraft(name varchar(20),orbittype varchar(20),altitude varchar(10),dateoflaunch  date));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+------------+----------------+-------------+---------------+
+| name       | LAU' at line 1
+mysql> ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ERROR 1064 (42000): You have an error in your SQL syntax' at line 1
+    -> mysql> create table spacecraft(name varchar(20),orbittype varchar(20),altitude varchar(10),dateoflaunch  date);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'the manual that corresponds to your MySQL server version for the right syntax to' at line 1
+mysql> Query OK, 0 rows affected (1.03 sec)
+    ->
+    -> mysql> show tables;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Query OK, 0 rows affected (1.03 sec)
+
+mysql> show tables' at line 1
+mysql> +------------------+
+    -> | Tables_in_login  |
+    -> +------------------+
+    -> | launchingdetails |
+    -> | spacecraft       |
+    -> +------------------+
+    -> 2 rows in set (0.00 sec)
+    ->
+    -> mysql> insert into spacecraft("BHASKARA-1","GSO","50.6 deg","1979-06-07");
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+------------------+
+| Tables_in_login  |
++------------------+
+| launchingdetail' at line 1
+mysql> ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"BHASKARA-1","GSO","50.6 deg","1979-06-07")' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ERROR 1064 (42000): You have an error in your SQL syntax' at line 1
+    -> mysql> insert into spacecraft values("BHASKARA-1","GSO","50.6 deg","1979-06-07");
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'the manual that corresponds to your MySQL server version for the right syntax to' at line 1
+mysql> Query OK, 1 row affected (0.17 sec)
+    ->
+    -> mysql> select * from spacecraft;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Query OK, 1 row affected (0.17 sec)
+
+mysql> select * from spacecraft' at line 1
+mysql> +------------+-----------+----------+--------------+
+    -> | name       | orbittype | altitude | dateoflaunch |
+    -> +------------+-----------+----------+--------------+
+    -> | BHASKARA-1 | GSO       | 50.6 deg | 1979-06-07   |
+    -> +------------+-----------+----------+--------------+
+    -> 1 row in set (0.00 sec)
+    ->
+    -> mysql> create table landingdetails(orbittype varchar(20),features varchar(20),altitude varchar(20));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+------------+-----------+----------+--------------+
+| name       | orbittype | ' at line 1
+mysql> Query OK, 0 rows affected (0.79 sec)
+    ->
+    -> mysql> insert into landingdetails values("GSO","EARTH OBSERVATION","50.6DEG");
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Query OK, 0 rows affected (0.79 sec)
+
+mysql> insert into landingdetails values("' at line 1
+mysql> Query OK, 1 row affected (0.17 sec)
+    ->
+    -> mysql>
+    -> mysql>
+
+
+
+
+
+
+
+
+
+
+/***********************************************************************************************************modified********************************************************************************************************************/
+
+
+
+
+
+latest spacecraft details:
+Enter password: *********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 57
+Server version: 8.0.19 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use login;
+Database changed
+mysql> select * from launchingdetails;
++--------------+----------------+-------------+--------------------+
+| name         | LAUNCHVEHICLE  | MISSIONLIFE | PLACEOFLAUNCH      |
++--------------+----------------+-------------+--------------------+
+| BHASKARA-1   | C-1INTERCOSMOS | 1 YEAR      | RUSSIA             |
+| ROHINI RS-D1 | SLV-3D1        | 17 MONTHS   | SRIHARIKOTA(INDIA) |
+| APPLE        | ARIANE-1(V-3)  | 2 YEARS     | KOUROU(CSG)        |
+| KALPANA1     | PSLV-C4        | 7 YEARS     | SRIHARIKOTA(INDIA) |
+| CHANDRAYAAN2 | GSLV-MK 111-M1 | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| MANGALYAAN   | PSLV-C25       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| CHANDRAYAAN1 | PSLV-C11       | 2 YEARS     | SRIHARIKOTA(INDIA) |
+| APOLLO 11    | SATURN V       | 8 DAYS      | KENNEDY SC         |
+| SKYLAB       | ANTARES        | 2249 DAYS   | KENNEDY SC         |
++--------------+----------------+-------------+--------------------+
+9 rows in set (0.00 sec)
+
+mysql> select * from spacecraft;
++--------------+---------------+-------------------+--------------+
+| name         | orbittype     | satcatno          | dateoflaunch |
++--------------+---------------+-------------------+--------------+
+| BHASKARA-1   | LEO           | 11392             | 1979-06-07   |
+| APPLE        | GSO           | 12545             | 1981-06-19   |
+| KALPANA1     | GSO           | 27525             | 2002-09-12   |
+| ROHINI RS-D1 | LEO           | 11899             | 1981-05-31   |
+| CHANDRAYAAN1 | LUNAR         | 33405             | 2008-10-22   |
+| CHANDRAYAAN2 | LUNAR         | 44441             | 2019-07-22   |
+| MANGALYAAN   | MARTIAN       | 39370             | 2013-11-05   |
+| APOLLO 11    | LUNAR         | CSM:4309 LM0:4041 | 1969-07-16   |
+| SKYLAB       | CIRCULARORBIT | 06633             | 1973-05-14   |
++--------------+---------------+-------------------+--------------+
+9 rows in set (0.00 sec)
+
+mysql> select * from landingdetails;
++---------------+---------------------+------------------+
+| orbittype     | features            | satcatno         |
++---------------+---------------------+------------------+
+| GSO           | COMMUNICATION       | 12545            |
+| LEO           | EARTH OBSERVATION   | 11392            |
+| LEO           | EARTH OBSERVATION   | 11899            |
+| GSO           | CLIMATE ENVIRONMENT | 27525            |
+| LUNAR         | PLANET OBSERVATION  | 44441            |
+| LUNAR         | PLANET OBSERVATION  | 33405            |
+| LUNAR         | PLANET OBSERVATION  | CSM:4039 LM:4041 |
+| MARTIAN       | PLANET OBSERVATION  | 39370            |
+| CIRCULARORBIT | SPACESTATION        | 06633            |
++---------------+---------------------+------------------+
+9 rows in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+/********************************************************************MODIFIED******************************************************/
+
+
+mysql> SELECT* FROM LANDINGDETAILS;
++---------------+----------------------------+------------------+
+| orbittype     | features                   | satcatno         |
++---------------+----------------------------+------------------+
+| GSO           | COMMUNICATION              | 12545            |
+| LEO           | EARTH OBSERVATION          | 11392            |
+| LEO           | EARTH OBSERVATION          | 11899            |
+| GSO           | CLIMATE ENVIRONMENT        | 27525            |
+| LUNAR         | PLANET OBSERVATION         | 44441            |
+| LUNAR         | PLANET OBSERVATION         | 33405            |
+| LUNAR         | PLANET OBSERVATION         | CSM:4039 LM:4041 |
+| MARTIAN       | PLANET OBSERVATION         | 39370            |
+| CIRCULARORBIT | SPACESTATION               | 06633            |
+| SSPO          | EARTH OBSERVATION          | 44804            |
+| SSPO          | EARTH OBSERVATION          | 29710            |
+| SSPO          | EARTH OBSERVATION          | 38248            |
+| LEO           | DISASTER MANAGEMENT SYSTEM | 44857            |
+| SSPO          | CLIMATE ENVIRONMENT        | 37838            |
+| SSPO          | SPACE SCIENCE              | 40930            |
+| SSPO          | CLIMATE ENVIRONMENT        | 39086            |
+| SSPO          | EARTH OBSERVATION          | 34807            |
+| SSPO          | EARTH OBSERVATION          | 18960            |
+| SSPO          | CLIMATE ENVIRONMENT        | 41790            |
+| SSPO          | CLIMATE ENVIRONMENT        | 35931            |
+| GSO           | NAVIGATION                 | 41241            |
+| GSO           | COMMUNICATION              | 28911            |
+| SSPO          | EARTH OBSERVATION          | 36795            |
++---------------+----------------------------+------------------+
+23 rows in set (0.00 sec)
+
+mysql> SELECT * FROM SPACECRAFT;
++-----------------+---------------+-------------------+--------------+
+| name            | orbittype     | satcatno          | dateoflaunch |
++-----------------+---------------+-------------------+--------------+
+| BHASKARA-1      | LEO           | 11392             | 1979-06-07   |
+| APPLE           | GSO           | 12545             | 1981-06-19   |
+| KALPANA1        | GSO           | 27525             | 2002-09-12   |
+| ROHINI RS-D1    | LEO           | 11899             | 1981-05-31   |
+| CHANDRAYAAN1    | LUNAR         | 33405             | 2008-10-22   |
+| CHANDRAYAAN2    | LUNAR         | 44441             | 2019-07-22   |
+| MANGALYAAN      | MARTIAN       | 39370             | 2013-11-05   |
+| APOLLO 11       | LUNAR         | CSM:4309 LM0:4041 | 1969-07-16   |
+| SKYLAB          | CIRCULARORBIT | 06633             | 1973-05-14   |
+| CATROSAT 3      | SSPO          | 44804             | 2019-11-27   |
+| CATROSAT 2      | SSPO          | 29710             | 2007-01-10   |
+| RISAT-1         | SSPO          | 38248             | 2012-04-26   |
+| RISAT2BR1       | LEO           | 44857             | 2019-12-11   |
+| MEGHA TROPIQUES | SSPO          | 37838             | 2011-10-12   |
+| ASTROSAT        | SSPO          | 40930             | 2015-09-28   |
+| SARAL           | SSPO          | 39086             | 2013-02-25   |
+| RISAT-2         | SSPO          | 34807             | 2009-04-20   |
+| RESOURCESAT-1   | SSPO          | 18960             | 2003-10-17   |
+| SCATSAT-1       | SSPO          | 41790             | 2016-09-26   |
+| OCEANSAT-2      | SSPO          | 35931             | 2009-09-23   |
+| IRNSS-1E        | GSO           | 41241             | 2016-01-20   |
+| INSAT-4A        | GSO           | 28911             | 2005-12-22   |
+| CATROSAT-2B     | SSPO          | 36795             | 2010-07-12   |
++-----------------+---------------+-------------------+--------------+
+23 rows in set (0.00 sec)
+
+
+
+SELECT * FROM LAUNCHINGDETAILS;
++-----------------+----------------+-------------+--------------------+
+| name            | launchvehicle  | missionlife | placeoflaunch      |
++-----------------+----------------+-------------+--------------------+
+| BHASKARA-1      | C-1INTERCOSMOS | 1 YEAR      | RUSSIA             |
+| ROHINI RS-D1    | SLV-3D1        | 17 MONTHS   | SRIHARIKOTA(INDIA) |
+| APPLE           | ARIANE-1(V-3)  | 2 YEARS     | KOUROU(CSG)        |
+| KALPANA1        | PSLV-C4        | 7 YEARS     | SRIHARIKOTA(INDIA) |
+| CHANDRAYAAN2    | GSLV-MK 111-M1 | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| MANGALYAAN      | PSLV-C25       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| CHANDRAYAAN1    | PSLV-C11       | 2 YEARS     | SRIHARIKOTA(INDIA) |
+| APOLLO 11       | SATURN V       | 8 DAYS      | KENNEDY SC         |
+| SKYLAB          | ANTARES        | 2249 DAYS   | KENNEDY SC         |
+| CATROSAT 3      | PSLV C47       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| CATROSAT 2      | PSLV C7        | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| RISAT-1         | PSLV C19       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| RISAT2BR1       | PSLV C48       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| MEGHA TROPIQUES | PSLV C19       | 3 YEARS     | SRIHARIKOTA(INDIA) |
+| ASTROSAT        | PSLV C30       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| SARAL           | PSLV C20       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| RISAT-2         | PSLV C12       | 4 YEARS     | SRIHARIKOTA(INDIA) |
+| RESOURCESAT-1   | PSLV C5        | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| SCATSAT-1       | PSLV C35       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| OCEANSAT-2      | PSLV C14       | 5 YEARS     | SRIHARIKOTA(INDIA) |
+| IRNSS-1E        | PSLV C31       | 12 YEARS    | SRIHARIKOTA(INDIA) |
+| INSAT-4A        | ARIANE-V 169   | 12 YEARS    | KOUROU             |
+| CATROSAT-2B     | PSLV C15       | 5 YEARS     | SRIHARIKOTA(INDIA) |
++-----------------+----------------+-------------+--------------------+
+23 rows in set (0.00 sec)
